@@ -1,0 +1,133 @@
+\documentclass[11pt, a5paper]{extarticle}
+\usepackage{fontspec}
+\usepackage[utf8]{luainputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[polish]{babel}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{float}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{color}
+\usepackage{paracol}
+\usepackage{parallel}
+\usepackage{pdfcolparallel}
+\usepackage{bbding}
+\usepackage[labelfont=bf]{caption}
+\usepackage[a5paper,top=1.25cm, bottom=1.5cm, left = 1.0cm, right=1.0cm]{geometry}
+\usepackage{relsize}
+
+\usepackage{pgfornament}
+
+\newcommand{\textjuni}[1]{{\fontspec{Junicode}#1}}
+
+\newcommand{\versicle}{\textcolor{red}{\textjuni{\char"2123. }}}
+\newcommand{\response}{\textcolor{red}{\textjuni{\char"211F. }}}
+
+\newcommand{\SmallCross}{\textcolor{red}{\smaller[1]\CrossMaltese\normalsize}}
+
+\DeclareUnicodeCharacter{01FD}{æ}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\includegraphics{rycina}
+\vspace*{0.5cm}
+\huge
+\textbf{Chrzest \\ Tomasza Michała Kontnego}
+\vspace{1.0cm}
+
+	\tikzset{
+		pgfornamentstyle/.style={scale=.5}
+	}
+	\foreach \i in {60} {\expandafter\pgfornament\expandafter{\i}\ }
+
+\vspace{1.5cm}
+{\large 21.09.2024}
+\end{center}
+\end{titlepage}
+
+\begin{center}
+\huge
+
+\textbf{Obrzędy chrztu}\\[0.2cm] 
+\Large
+\textbf{Obrzęd przyjęcia dziecka} \\
+
+\normalsize
+\end{center}
+\textcolor{red}{Celebrans pyta najpierw rodziców:} \\
+\textcolor{red}{K.} \textcolor{black} Drodzy rodzice, jakie imię wybraliście dla swojego dziecka? \\
+\textcolor{red}{R.} \textcolor{black} Tomasz Michał.\\
+\textcolor{red}{K.} \textcolor{black} O co prosicie Kościół Boży dla Tomasza? \\
+\textcolor{red}{R.} \textcolor{black} O wiarę. \\
+\indent\textcolor{red} {W powyższym dialogu celebrans może użyć innych słów. Na drugie pytanie rodzice mogą odpowiedzieć innymi słowami, np.: O chrzest, lub: O łaskę Chrystusa, lub: O przyjęcie do Kościoła, lub: O życie wieczne.} \\
+
+\noindent\textcolor{red} {Wtedy celebrans zwraca się do rodziców tymi lub podobnymi słowami:} \\
+\textcolor{red}{K.} \textcolor{black} {Drodzy rodzice, prosząc o chrzest dla waszego dziecka, przyjmujecie na siebie obowiązek wychowania go w wierze, aby zachowując Boże przykazania, miłowało Boga i bliźniego, jak nas nauczył Jezus Chrystus. Czy jesteście świadomi tego obowiązku?} \\
+\textcolor{red}{R.} \textcolor{black} Jesteśmy tego świadomi.\\
+\textcolor{red}{K.} \textcolor{black}{A wy, drodzy chrzestni, czy jesteście gotowi (czy jesteś gotowy, gotowa) pomagać rodzicom tego dziecka w wypełnianiu ich obowiązku?}\\
+\textcolor{red}{R.} \textcolor{black}{Jesteśmy gotowi.} \\
+\textcolor{red}{K.} \textcolor{black}{Tomaszu Michale wspólnota chrześcijańska przyjmuje cię z wielką radością. W imieniu tej wspólnoty znaczę cię znakiem krzyża. Po mnie wy, rodzice i chrzestni, naznaczcie wasze dziecko znakiem Jezusa Chrystusa, naszego Zbawiciela.}\\
+\indent\textcolor{red}{I w milczeniu kreśli znak krzyża na czole dziecka. Potem czynią to rodzice i chrzestni.}\\
+
+\begin{center}
+\Large
+\textbf{Liturgia Słowa Bożego} \\
+
+\normalsize
+\end{center}
+\textcolor{red}{Odczytuje się jedno lub dwa czytania biblijne}\\
+\begin{center}
+\Large
+\noindent\textcolor{black}{Modlitwa powszechna}
+\end{center}
+\textcolor{red}{K.} \textcolor{black}Wezwani przez Pana jako królewskie kapłaństwo, naród święty i lud nabyty przez Niego na własność, prośmy wszechmogącego Boga o miłosierdzie dla tego dziecka, które ma otrzymać łaskę chrztu świętego, dla jego rodziców, chrzestnych i wszystkich ochrzczonych. \\
+Wołajmy do Niego: Wysłuchaj nas, Panie. \\
+
+\noindent\versicle Prosimy Cię, abyś przez chrzest święty włączył to dziecko do wspólnoty swojego Kościoła. \\
+\response Wysłuchaj nas, Panie. \\
+\versicle Prosimy Cię, aby naznaczone krzyżem świętym, przez całe swoje życie odważnie wyznawało Chrystusa, Syna Bożego. \\
+\response Wysłuchaj nas, Panie. \\
+\versicle Prosimy Cię, aby przez chrzest stało się uczestnikiem Śmierci i Zmartwychwstania Chrystusa. \\
+\response Wysłuchaj nas, Panie. \\
+\versicle Prosimy Cię, aby to dziecko, pociągnięte słowem i przykładem rodziców i chrzestnych, wzrastało w łasce jako żywy członek Kościoła. \\
+\response Wysłuchaj nas, Panie. \\
+\versicle Prosimy Cię, abyś we wszystkich tutaj obecnych odnowił łaskę chrztu świętego. \\
+\response Wysłuchaj nas, Panie. \\
+\versicle Prosimy Cię, aby wszyscy uczniowie Chrystusa, którzy przez chrzest stali się jednym ciałem, zawsze trwali w jednej wierze i miłości. \\
+\response Wysłuchaj nas, Panie. \\
+\textcolor{red}{Potem celebrans razem z obecnymi wzywa wstawiennictwa Świętych.}
+\begin{Parallel}[v]{0.485\textwidth}{0.485\textwidth}
+\ParallelLText{
+\versicle Sancta Maria , Mater Dei, 
+\response ora pro nobis.
+\versicle Sánete Ioánnes Baptísta,
+\response ora pro nobis.
+\versicle Sánete Ioseph,
+\response ora pro nobis.
+\versicle Sancti Petre et Paule,
+\response orate pro nobis.
+}
+\ParallelRText{
+\versicle Święta Maryjo, Matko Boża, \\
+\response módl się za nami. \\
+\versicle Święty Janie Chrzcicielu, \\
+\response módl się za nami. \\
+\versicle Święty Józefie, \\
+\response  módl się za nami. \\
+\versicle Święta Anno \\
+\response  módl się za nami. \\
+\versicle Święty Tomaszu, \\
+\response  módl się za nami. \\
+\versicle Święty Michale Archaniele, \\
+\response  módl się za nami. \\
+\versicle Święci Piotrze i Pawle, \\
+\response  módlcie się za nami. \\
+\versicle Wszyscy Święci i Święte Boże, \\
+\response  módlcie się za nami. \\
+}
+\end{Parallel}
+\end{document}
